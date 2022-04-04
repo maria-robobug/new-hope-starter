@@ -1,0 +1,16 @@
+{
+  "name": "new-hope-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "New Hope portal template repository",
+  "license": "MIT",
+  "scripts": {
+    "start": "portal develop",
+    "build": "portal build",
+    "eject-component": "portal eject component",
+    "eject-theme": "portal eject theme"
+  },
+  "dependencies": {
+    "new-hope": "file:../new-hope"
+  }
+}

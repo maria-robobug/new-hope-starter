@@ -1,0 +1,10 @@
+main:
+  - page: markdown.md
+  - page: markdoc.md
+  - page: admonitions.md
+  - page: mermaid.md
+  - page: reusable-markdown-snippets.md
+  - page: tabs.md
+  - href: https://google.com
+    label: Google
+    external: true
