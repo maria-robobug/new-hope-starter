@@ -6,7 +6,7 @@ export const frontmatter = {
   }
 };
 
-import { Button, Flex, Jumbotron, H1, H2 } from '@redocly/developer-portal/ui';
+import { Button, Flex, Jumbotron, H1, H2 } from '@theme/ui';
 
 
 export default function () {

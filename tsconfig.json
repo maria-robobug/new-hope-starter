@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@portal/*": [
+        "*",
+        "node_modules/new-hope/src/client/app/*"
+      ],
+      "@theme/*": [
+        "*",
+        "node_modules/new-hope/node_modules/@redocly/default-theme/src/*"
+      ],
+      "*": [
+        "*",
+        "node_modules/new-hope/node_modules/*",
+        "node_modules/new-hope/node_modules/@types/*"
+      ]
+    },
+  }
+}
