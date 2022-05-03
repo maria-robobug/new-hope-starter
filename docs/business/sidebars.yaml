@@ -1,0 +1,10 @@
+- label: Overview
+  page: index.page.tsx
+  pages:
+    - label: Online payments
+    - label: Product and prices
+    - label: Invoicing
+    - label: Subscriptions
+    - label: Quotes
+    - label: In-person payments
+    - label: Multiparty payments

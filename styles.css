@@ -1,7 +1,150 @@
 #redocly_root {
+  --content-max-width: 1175px;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Ubuntu";
+  --link-color: var(--sail-color-blue-500);
+  --text-color: rgb(60, 66, 87);
+  --secondary-text-color: rgb(163, 172, 185);
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+  --bold-font-weight: 700;
   --color-primary-500: orange;
-  --navbar-color-background: #000;
+  --font-size: 16px;
+  --font-size-small: 12px;
+  
+  --navbar-color-background: rgb( 247,250,252);
   --navbar-height: 60px;
   --navbar-item-active-background-color: #303030;
+  --navbar-item-active-text-color: var(--link-color);
+  --navbar-color-text: rgb( 60,66,87);
+  --navbar-item-font-size: 14px;
+  --navbar-color-text: var(--text-color);
+  --navbar-font-family: var(--font-family);
+  --navbar-item-font-weight: var(--regular-font-weight);
+
+  --sidebar-text-color: var(--text-color);
+  --sidebar-background-color: white;
+  --sidebar-text-active-color: var(--sail-color-blue-500);
+  --sidebar-text-hovered: var(--sail-color-gray-900);
+  --sidebar-font-size: var(--sail-font-size-14);
+  
   --logo-height: 3rem;
+  --background-color: white;
+  --color-primary-contrast: var(--text-color);
+  --secondary-button-background: var(--sail-color-gray-100);
+
+  --card-border-radius: 4px;
+  
+  --sail-radius: 4px;
+  --sail-color-gray-50: rgb(247,250,252);
+  --sail-color-gray-100: rgb(227,232,238);
+  --sail-color-blue-400: rgb(108,142,239);
+  --sail-color-blue-500: rgb(84,105,212);
+  --sail-color-gray-500: rgb(105,115,134);
+  --sail-color-gray-600: rgb(79, 86, 107);
+  --sail-color-gray-700: rgb(60,66,87);
+  --sail-color-gray-900: rgb(26,31,54);
+  --sail-font-size-12: 12px;
+  --sail-font-size-14: 14px;
+  --sail-font-size-15: 15px;
+  
+
+
+  --footer-width: var(--content-max-width);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article p {
+  line-height: 26px;
+  font-size: 16px;
+  color: var(--sail-color-gray-700);
+  padding-top: 12px;
+}
+
+article h2 {
+  padding-top: 32px;
+}
+
+.padding-top--8 {
+  padding-top: 8px;
+}
+
+.padding-top--12 {
+  padding-top: 12px;
+}
+
+.padding-top--16 {
+  padding-top: 16px;
+}
+
+.padding-top--32 {
+  padding-top: 32px;
+}
+
+.padding-right--20 {
+  padding-right: 20px;
+}
+
+.padding-right--32 {
+  padding-right: 32px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-bottom--24 {
+  padding-bottom: 24px;
+}
+
+.margin-top--4 {
+  margin-top: 4px;
+}
+
+.margin-top--16 {
+  margin-top: 16px;
+}
+
+.margin-top--24 {
+  margin-top: 24px;
+}
+
+.margin-top--32 {
+  margin-top: 32px;
+}
+
+.margin-bottom--12 {
+  margin-bottom: 12px;
+}
+
+.margin-bottom--16 {
+  margin-bottom: 16px;
+}
+
+.margin-bottom--48 {
+  margin-bottom: 48px;
+}
+
+.margin-left--16 {
+  margin-left: 16px;
+}
+
+.line-height--16 {
+  line-height: 16px;
+}
+
+.flex-direction--rowReversed {
+  flex-direction: row-reverse;
+}
+
+.flex-justifyContent--spaceBetween {
+  justify-content: space-between;
+}
+
+.box-divider--light-bottom-1 {
+  box-shadow: inset 0 -1px var(--sail-color-gray-100);
 }

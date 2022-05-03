@@ -1,0 +1,37 @@
+- label: Overview
+  page: index.page.tsx
+- group: Online payments
+  expanded: true
+  items: 
+    - label: Overview
+      href: '#1'
+    - label: How cards work
+      href: '#2'
+    - label: Quickstart
+      href: '#3'
+    - label: Accept payments
+      href: '#4'
+    - label: Share a payment link
+      href: '#5'
+- group: Product and prices
+  items: 
+    - label: Overview
+      href: '#6'
+    - label: How products and prices work
+      href: '#7'
+    - label: Getting started with products and prices
+      href: '#8'
+    - label: Manage products and prices
+      href: '#9'
+- group: Invoicing
+  items:
+    - label: Product and prices
+      href: '#10'
+- label: Subscriptions
+  href: '#11'
+- label: Quotes
+  href: '#12'
+- label: In-person payments
+  href: '#13'
+- label: Multiparty payments
+  href: '#14'
