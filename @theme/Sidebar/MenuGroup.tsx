@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Arrow } from '@theme/ui/Arrow/Arrow';
+import { Arrow } from '@theme/ui/Arrow';
 import { ItemState } from '@portal/Sidebar/types';
 import { MenuLinkItem } from '@theme/Sidebar/MenuLinkItem';
 import { MenuItemLabel } from '@theme/Sidebar/MenuItemLabel';

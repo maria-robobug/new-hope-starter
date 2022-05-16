@@ -8,7 +8,7 @@ Example .md file:
 
 Some text
 
-{% embed src="./snippets/_snippet-example.md" /%}
+{% partial file="./snippets/_snippet-example.md" /%}
 
 {% html %}
 <div>Some text</div>
@@ -18,4 +18,4 @@ Some text
 More text
 ```
 
-{% embed src="./snippets/_snippet-example.md" /%}
+{% partial file="./snippets/_snippet-example.md" /%}
