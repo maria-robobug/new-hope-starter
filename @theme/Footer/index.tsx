@@ -1,4 +1,4 @@
-import Footer from '@theme/Footer/Footer';
+import { Footer } from '@theme/Footer/Footer';
 import FooterLinks from '@theme/Footer/FooterLinks';
 import FooterSignup from '@theme/Footer/FooterSignUp';
 
