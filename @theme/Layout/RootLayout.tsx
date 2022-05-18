@@ -8,6 +8,7 @@ interface LayoutConfig {
 
 export function RootLayout({
   navbar,
+  footer,
   children,
 }: React.PropsWithChildren<LayoutConfig>) {
   return (
