@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { mediaQueries } from '@portal/media-css';
-import { NavbarItem } from '@theme/Navbar/NavbarItem';
+import { NavbarItem } from '@theme/Navbar';
 
-export default function NavbarMenu({ menuItems }) {
+export function NavbarMenu({ menuItems }) {
   if (!menuItems || !menuItems.length) {
     return null;
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Footer from '@theme/Footer/Footer';
+import {Footer} from '@theme/Footer';
 
 interface PageLayoutProps {
   sidebar?: React.ReactNode;

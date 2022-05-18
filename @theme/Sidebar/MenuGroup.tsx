@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Arrow } from '@theme/ui/Arrow/Arrow';
+import { Arrow } from '@theme/ui';
 import { ItemState } from '@portal/Sidebar/types';
-import { MenuLinkItem } from '@theme/Sidebar/MenuLinkItem';
-import { MenuItemLabel } from '@theme/Sidebar/MenuItemLabel';
+import { MenuLinkItem, MenuItemLabel } from '@theme/Sidebar';
 import { SeparatorLine } from '@theme/Sidebar/SeparatorLine';
 
 interface MenuGroupProps {
@@ -46,7 +45,7 @@ const MenuWrapper = styled.div`
 
 const MenuGroupLabel = styled(MenuItemLabel)<{ isAlwaysExpanded?: boolean }>`
   padding-left: var(--sidebar-spacing-padding-horizontal);
-  cursor: ${props => (props.isAlwaysExpanded ? 'default' : 'pointer')};
+  cursor: ${(props) => (props.isAlwaysExpanded ? 'default' : 'pointer')};
 `;
 
 const MenuGroupArrow = styled(Arrow)`

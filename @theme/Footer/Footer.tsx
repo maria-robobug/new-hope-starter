@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import FooterLinks from '@theme/Footer/FooterLinks';
 import FooterSignUp from '@theme/Footer/FooterSignUp';
 
-export default function Footer() {
+export function Footer() {
   return (
     <FooterContainer data-component-name="Footer/Footer">
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>

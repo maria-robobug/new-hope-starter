@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Link } from '@portal/Link';
-import { useLocation } from '@portal/hooks';
+import { useLocation } from 'react-router-dom';
 import { withPathPrefix } from '@portal/utils';
 import type { ResolvedNavLinkItem } from '@portal/types';
 

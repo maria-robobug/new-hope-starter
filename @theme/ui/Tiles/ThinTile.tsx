@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from '@portal/Link';
 import { Flex } from '@theme/ui/Flex';
 import { mediaQueries } from '@portal/media-css';
 import { TileText } from '@theme/ui/Tiles/TileText';

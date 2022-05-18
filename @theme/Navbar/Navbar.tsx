@@ -10,7 +10,7 @@ interface NavbarProps {
   search: React.ReactNode;
 }
 
-export default function Navbar({ menu, search }: NavbarProps) {
+export function Navbar({ menu, search }: NavbarProps) {
   return (
     <NavbarContainer data-component-name="Navbar/Navbar">
       <div>

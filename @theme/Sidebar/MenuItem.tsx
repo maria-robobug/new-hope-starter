@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MenuItemProps } from '@portal/Sidebar/types';
-import { MenuLinkItem } from '@theme/Sidebar/MenuLinkItem';
-import { ExternalIcon } from '@theme/Sidebar/ExternalIcon';
-import { MenuItemLabel } from '@theme/Sidebar/MenuItemLabel';
+import { MenuItemProps } from '@theme/Sidebar/types';
+import { MenuLinkItem, ExternalIcon, MenuItemLabel } from '@theme/Sidebar';
 import { SeparatorLine } from '@theme/Sidebar/SeparatorLine';
 
 const StyledMenuItem = styled(MenuLinkItem)`

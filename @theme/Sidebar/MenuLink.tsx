@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { UniversalLink } from '@portal/UniversalLink/UniversalLink';
+import { UniversalLink } from '@theme/ui/UniversalLink';
 
 export const MenuLink = styled(UniversalLink).attrs(() => ({
   'data-component-name': 'Sidebar/MenuLink'

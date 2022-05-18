@@ -1,1 +1,2 @@
-
+- label: Home
+  page: docs/index.page.tsx

@@ -1,6 +1,6 @@
 - label: Overview
   page: index.page.tsx
-  pages:
+  items:
     - label: Online payments
     - label: Product and prices
     - label: Invoicing
