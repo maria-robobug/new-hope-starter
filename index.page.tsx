@@ -6,7 +6,9 @@ export const frontmatter = {
   }
 };
 
-import { Button, Flex, Jumbotron, H1, H2 } from '@theme/ui';
+import { Flex, Jumbotron } from '@theme/ui';
+import { Button } from '@theme/Button';
+import { H1, H2 } from '@theme/Typography';
 
 
 export default function () {

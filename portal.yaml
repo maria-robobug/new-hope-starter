@@ -11,13 +11,6 @@ logo:
   image: https://redocly.com/static/logo-bb321acdb156828f8cde4945296fe786.png
   link: https://redocly.com
 
-themes:
-  - name: '@redocly-theme-stylish-navbar'
-    settings:
-      openApiReferenceFeatures:
-        showConsole: true
-      buildIndexPages: true
-
 footer:
   copyrightText: Copyright © Redocly 2019-2020. All right reserved.
   columns:

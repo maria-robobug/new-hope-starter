@@ -3,12 +3,14 @@
 ## Usage
 
 Example .md file:
-```markdown
+
+{% markdoc-example %}
+```markdoc
 # Main file
 
 Some text
 
-{% embed src="./snippets/_snippet-example.md" /%}
+{% partial file="./snippets/_snippet-example.md" /%}
 
 {% html %}
 <div>Some text</div>
@@ -17,5 +19,6 @@ Some text
 
 More text
 ```
+{% /markdoc-example %}
 
-{% embed src="./snippets/_snippet-example.md" /%}
+{% partial file="./snippets/_snippet-example.md" /%}
