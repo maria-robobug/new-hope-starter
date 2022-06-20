@@ -6,7 +6,7 @@ export const frontmatter = {
   }
 };
 
-import { Flex, WideTile  } from '@redocly/developer-portal/ui';
+import { Flex, WideTile  } from '@theme/ui';
 
 export default function () {
   return (
