@@ -11,6 +11,6 @@
     "eject-theme": "portal eject theme"
   },
   "dependencies": {
-    "new-hope": "file:../new-hope"
+    "@redocly/newhope": "0.0.16"
   }
 }
