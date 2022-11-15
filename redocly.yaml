@@ -1,0 +1,40 @@
+
+
+  # - search: true
+theme:
+  logo:
+    image: https://redocly.com/static/logo-bb321acdb156828f8cde4945296fe786.png
+    link: https://redocly.com
+
+  navbar:
+    - label: Home
+      page: index.page.tsx
+    - markdown.md
+    - label: External docs
+      href: https://redoc.ly/docs/developer-portal/introduction/
+
+  footer:
+    copyrightText: Copyright © Redocly 2019-2022. All right reserved.
+    items:
+      - group: Legal
+        items:
+          - label: Terms of Use
+            href: 'https://redocly.com/subscription-agreement/'
+          - label: Privacy Notice
+            href: 'https://redocly.com/privacy-policy/'
+          - label: Cookie Notice
+            href: 'https://redocly.com/privacy-policy/'
+      - group: Support
+        items:
+          - label: FAQ
+            page: faq.md
+          - label: Contact Us
+            page: contact.page.tsx
+      - group: Social
+        items:
+          - label: Facebook
+            href: 'https://www.facebook.com/redocly/'
+          - label: Youtube
+            href: 'https://www.youtube.com/channel/UCxYbPjnpqmHCmwg9iWf7wtQ'
+          - label: Twitter
+            href: 'https://twitter.com/Redocly'
