@@ -1,7 +1,5 @@
 #redocly_root {
   --color-primary-500: orange;
-  --navbar-color-background: #000;
-  --navbar-height: 60px;
-  --navbar-item-active-background-color: #303030;
-  --logo-height: 3rem;
+  --navbar-height: 80px;
+  --navbar-logo-height: 3rem;
 }

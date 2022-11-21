@@ -10,8 +10,6 @@ Example .md file:
 
 Some text
 
-{% partial file="./snippets/_snippet-example.md" /%}
-
 {% html %}
 <div>Some text</div>
 <div>Some other text</div>
@@ -21,4 +19,5 @@ More text
 ```
 {% /markdoc-example %}
 
-{% partial file="./snippets/_snippet-example.md" /%}
+{% partial file="./snippets/_snippet-example.md" %}
+{% /partial %}

@@ -7,11 +7,12 @@ theme:
     link: https://redocly.com
 
   navbar:
-    - label: Home
-      page: index.page.tsx
-    - markdown.md
-    - label: External docs
-      href: https://redoc.ly/docs/developer-portal/introduction/
+    items:
+      - label: Home
+        page: index.page.tsx
+      - markdown.md
+      - label: External docs
+        href: https://redoc.ly/docs/developer-portal/introduction/
 
   footer:
     copyrightText: Copyright © Redocly 2019-2022. All right reserved.

@@ -17,13 +17,13 @@ export default function () {
       <H1>Redocly training</H1>
       <H2>A starter developer portal with training exercises</H2>
       <Flex p={20} justifyContent="center">
-        <Button size="large" to="https://app.redoc.ly">
+        <Button color="secondary" size="large" to="https://app.redoc.ly">
           Redocly app
         </Button>
-        <Button variant="outlined" size="large" to="developer-portal/index.md">
+        <Button color="secondary" variant="outlined" size="large" to="/markdown/">
           Get started
         </Button>
-        <Button variant="outlined" size="large" to="https://redoc.ly/docs">
+        <Button color="secondary" variant="outlined" size="large" to="https://redoc.ly/docs">
           Docs
         </Button>
       </Flex>
