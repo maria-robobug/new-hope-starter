@@ -8,6 +8,6 @@
     "build": "portal build"
   },
   "dependencies": {
-    "@redocly/portal": "0.2.5"
+    "@redocly/portal": "0.3.1"
   }
 }
